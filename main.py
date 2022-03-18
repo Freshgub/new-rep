@@ -1,5 +1,5 @@
-greeting = input('Hello stranger! Whats your name?: ')
-print(f"Nice to meet you {greeting}.")
+name = input('Hello stranger! Whats your name?: ')
+print(f"Nice to meet you {name}.")
 print("My name is Gabbagoo, your personal assistant.")
 
 while True:
@@ -14,7 +14,7 @@ while True:
         print("Tough guy! I like that. lets skip it then.")
         break
     else:
-        print("try again")
+        print(f"Wrong answer {name} (make sure you answer with the upper-case)")
         continue
 
 
